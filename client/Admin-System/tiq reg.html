@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TIQ</title>
+  <link rel="stylesheet" type="text/css" href="../Admin-System/club registration.css">  
+  <link rel="icon" href="../img/GUC-icon.png"  >
+</head>
+<body>
+  <div >
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="../Admin-System/TIQ.html">About</a>
+    <a href="../Admin-System/tiq reg.html">Club registration</a>
+    <a href="../Admin-System/tiq int.html">interviews</a>
+    <a href="../Admin-System/Clubs.html">View another club</a>
+  </div>
+
+  <nav class="zone green">
+    <ul class="main-nav">
+      <div id="main" >
+        <div class="center">
+        <img src="../img/guc-com.png" alt="" >
+      </div>
+        
+        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>
+        <a href="../Admin-System/Admin System.html" > <div class="btn"> <button type="button" class="sign-out">Home</button></div></a>
+        
+      </div>
+    
+
+    </ul>
+  </nav>
+  <!-- <div class="container zone red">Cover!!!!</div> -->
+ 
+    <!-- lskFHLEW -->
+    <div class="s">
+      <h1 style=" text-align: center;">Registration📝</h1>
+     
+        <div class="space2"></div>
+        <div class="form" style="display: flex;justify-content: center;">
+          <form method="GET" action="../Admin-System/ok.html">
+            <label for="">Email:</label><br>
+            <input type="email" placeholder="Email:" required><br>
+            <label for="">ID:</label><br>
+            <input type="ID" autocomplete="off" placeholder="ID:" class="ID"><br>
+          <div class="btn2">
+       <button class="submit1"   type="submit" value="register">submit </button>
+       <button class="submit2" type="reset" value="register">reset</button>
+     </div>
+    </form>
+  </div>
+ 
+  </div>
+ 
+  </div>
+  <footer class="zone yellow"></footer>
+ 
+</div>
+  <!-- start of script file -->
+  <!-- button sidebar -->
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin System</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../Admin-System/Admin System.css">  
+  <link rel="icon" href="../img/GUC-icon.png"  >
+</head>
+<body>
+  <div >
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="../Admin-System/Acadmic calendar.html">Acadmic calendar</a>
+    <a href="../Admin-System/Add-drop course.html">Add/ drop course</a>
+    <a href="../Admin-System/Change groups.html">Change groups</a>
+    <a href="../Admin-System/Check attendance.html">Check attendance</a>
+    <a href="../Admin-System/Choose elective courses.html">Elective courses credit hours</a>
+    <a href="../Admin-System/Evaluate course-TA-Prof.html">Evaluate course/TA/Prof</a>
+    <a href="../Admin-System/Events.html">Events</a>
+    <a href="../Admin-System/Food.html">Food</a>
+    <a href="../Admin-System/Gym.html">Gym</a>
+    <a href="../Admin-System/hall reservtion.html">Hall reservtion</a>
+    <a href="../Admin-System/internship.html">Internship </a>
+    <a href="../Admin-System/Make petition for summer courses.html">Petition for summer courses</a>
+    <a href="../Admin-System/Printer.html">Printer</a>
+    <a href="../Admin-System/Reserve room for after hours.html">Room for after hours</a>
+    <a href="../Admin-System/Sports.html">Sports </a>
+    <a href="../Admin-System/summer activities.html">Summer activities </a>
+    <a href="../Admin-System/Submit final exam excuse (online).html">Submit final exam excuse (online)</a>
+    <a href="../Admin-System/trip.html">Trips</a>
+    <a href="../Admin-System/Upload thesis (online).html">Upload thesis (online)</a>
+    <a href="../Admin-System/Upload Masters.html">Upload Masters (online)</a>
+  </div>
+
+  <nav class="zone green">
+    <ul class="main-nav">
+      <div id="main" >
+        <div class="center">
+        <img src="../img/guc-com.png" alt="" >
+      </div>
+        
+        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>
+        <a href="../S.P/student-portel.html" > <div class="btn"> <button type="button" class="sign-out">Student Portal</button></div></a>
+        
+      </div>
+    
+
+    </ul>
+  </nav>
+  <!-- <div class="container zone red">Cover!!!!</div> -->
+  <div class="s010">
+  <form>
+    <div class="inner-form">
+      <div class="basic-search">
+        <div class="input-field">
+          <input id="search" type="text" placeholder="What are you looking for?" />
+          <div class="icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="space6" style="height: 100px;"></div>
+
+  <!-- lskFHLEW -->
+  <div class="a">
+  <div class="upper"></div>
+<div class="zone blue grid-wrapper">
+  <a href="../Admin-System/Grades.html"><div class="box zone"><img src="../img/grades.jpg" height="280">Performance</div></a>
+  <a href="../Admin-System/Schedule.html"><div class="box zone"><img src="../img/schedule1.jpg" height="280">Schedule</div></a>
+  <a href="../Admin-System/Acadmic online-registration.html"><div class="box zone"><img src="../img/online-registration.jpg" height="280">Acadmic online-registration</div></a>
+  <a href="../Admin-System/Finanicial.html"><div class="box zone"><img src="../img/financial.jpg" height="280">Financials</div></a>
+  <a href="../Admin-System/bus regulations.html"><div class="box zone"><img src="../img/transportaion.jpg" height="280">Transportation</div></a>
+  <a href="../Admin-System/Clubs.html"><div class="box zone"><img src="../img/clubs.jpg" height="280">Clubs</div></a>
+  <a href="../Admin-System/maps1.html"><div class="box zone"><img src="../img/maps.jpg" height="280">Maps</div></a>
+  <a href="../Admin-System/Berlin.html"><div class="box zone"><img src="../img/berlin-o.jpg" height="280">Berlin</div></a>
+  <a href="../Admin-System/Contacts.html"><div class="box zone"><img src="../img/contacts.jpg" height="280">Contacts</div></a>
+</div>
+</div>
+  <footer class="zone yellow"></footer>
+ 
+</div>
+  <!-- start of script file -->
+  <!-- button sidebar -->
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+
+</script>
+<!-- slider -->
+  
+<script src="js/extention/choices.js"></script>
+<script>
+  const customSelects = document.querySelectorAll("select");
+  const deleteBtn = document.getElementById('delete')
+  const choices = new Choices('select',
+  {
+    searchEnabled: false,
+    itemSelectText: '',
+    removeItemButton: true,
+  });
+  for (let i = 0; i < customSelects.length; i++)
+  {
+    customSelects[i].addEventListener('addItem', function(event)
+    {
+      if (event.detail.value)
+      {
+        let parent = this.parentNode.parentNode
+        parent.classList.add('valid')
+        parent.classList.remove('invalid')
+      }
+      else
+      {
+        let parent = this.parentNode.parentNode
+        parent.classList.add('invalid')
+        parent.classList.remove('valid')
+      }
+    }, false);
+  }
+  deleteBtn.addEventListener("click", function(e)
+  {
+    e.preventDefault()
+    const deleteAll = document.querySelectorAll('.choices__button')
+    for (let i = 0; i < deleteAll.length; i++)
+    {
+      deleteAll[i].click();
+    }
+  });
+
+</script>
+</body>
+</html>

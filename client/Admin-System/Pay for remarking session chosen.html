@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remarking</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../Admin-System/Pay normal semester fees.css">  
+    <link rel="icon" href="../img/GUC-icon.png"  >
+</head>
+<div >
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="../Admin-System/Check financial balance.html">Check financial balance</a>
+      <a href="../Admin-System/Pay normal semester fees1.html">Pay normal semester fees</a>
+      <a href="../Admin-System/Pay for summer course1.html">Pay for summer course</a>
+      <a href="../Admin-System/Pay makeup exam online1.html">Pay makeup exam online</a>
+      <a href="../Admin-System/Pay for elective courses1.html">Pay for elective courses</a>
+      <a href="../Admin-System/Pay for remarking session chosen1.html">Pay for remarking session</a>
+      <a href="../Admin-System/Pay for summer activity1.html">Pay for summer activity</a>
+      <a href="../Admin-System/Pay for the GUC-provided trips1.html">Pay for the GUC-provided trips</a>
+      <a href="../Admin-System/Payment of the military service fees1.html">Payment of the military service fees </a>
+    </div>
+  
+    <nav class="zone green">
+      <ul class="main-nav">
+        <div id="main" >
+          <div class="center">
+          <img src="../img/guc-com.png" alt="" >
+        </div>
+          
+          <button class="openbtn" style="outline: none;" onclick="openNav()">☰ Open Sidebar</button>
+          <a href="../Admin-System/Admin System.html" > <div class="btn"> <button type="button" class="sign-out">Home</button></div></a>
+          
+        </div>
+      </ul>
+    </nav>
+    <div class="h" >
+    <h1 style=" text-align: center;"> Remarking Payment💳 </h1>
+
+   <div class="f">
+    <form method="GET" action="../Admin-System/ok payment.html">
+        
+        <label style="text-align: center;" for="">Card Number:</label><br>
+      <input type="number" placeholder="Card Number:" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" name="" onkeydown="return event.keyCode !== 69"  maxlength="16" required><br>
+      
+      <label style="text-align: center;" for="">Expiration Date:</label><br>
+      <input type="month"   required><br>
+      <label style="text-align: center;" for="">CVV:</label><br>
+   <input type="number" placeholder="cvv:" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" onkeydown="return event.keyCode !== 69"  maxlength="3" class="ID" required><br>
+    <div class="btn2" style="padding-left: px;">
+     
+ <button class="submit1"  type="submit" style="border-style: none; outline: none;" value="register">Submit </button>
+<button class="submit2" style="border-style: none; outline: none;"  type="reset" value="register">reset</button>
+</div>
+    </form>
+ </div>
+ <div id="myModal" class="modal">
+
+     <!-- Modal content -->
+     <div class="modal-content" style=" background-color: #27566B;">
+       <span class="close" style="color: white;">&times;</span>
+       <p style="color: white; text-align: center; font-size: 30px;">registration to the bus has been completed.</p><br>
+       <p style="color: white; text-align: center;">Click outside the box or the X button to exit</p>
+     </div>
+   
+   </div>
+   <h6 style="text-align: center; margin-top: 20px;">Enter a valid valid CVV and card number as it will not work on normal text then submit!</h6>
+
+    
+</div>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+      
+      </script>
+      <script> var modal = document.getElementById("myModal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on the button, open the modal
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }}</script>
+   
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<body>
+</body>
+</html>

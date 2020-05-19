@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check financial balance</title>
+    <link rel="stylesheet" type="text/css" href="../Admin-System/Check financial balance.css">  
+    <link rel="icon" href="../img/GUC-icon.png"  >
+</head>
+<div >
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="../Admin-System/Check financial balance.html">Check financial balance</a>
+      <a href="../Admin-System/Pay normal semester fees1.html">Pay normal semester fees</a>
+      <a href="../Admin-System/Pay for summer course1.html">Pay for summer course</a>
+      <a href="../Admin-System/Pay makeup exam online1.html">Pay makeup exam online</a>
+      <a href="../Admin-System/Pay for elective courses1.html">Pay for elective courses</a>
+      <a href="../Admin-System/Pay for remarking session chosen1.html">Pay for remarking session</a>
+      <a href="../Admin-System/Pay for summer activity1.html">Pay for summer activity</a>
+      <a href="../Admin-System/Pay for the GUC-provided trips1.html">Pay for the GUC-provided trips</a>
+      <a href="../Admin-System/Payment of the military service fees1.html">Payment of the military service fees </a>
+    </div>
+  
+    <nav class="zone green">
+      <ul class="main-nav">
+        <div id="main" >
+          <div class="center">
+          <img src="../img/guc-com.png" alt="" >
+        </div>
+          
+          <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>
+          <a href="../Admin-System/Admin System.html" > <div class="btn"> <button type="button" class="sign-out">Home</button></div></a>
+          
+        </div>
+      </ul>
+      
+    </nav>
+    <h1>Name:</h1>
+    <h1>UserCode:</h1>
+    <h1>payment requests to be paid:</h1><br>
+    <table style="width:100%">
+        <tr>
+          <th>Reference</th>
+          <th>Payment-Description</th> 
+          <th>currency</th>
+          <th>Amount</th>
+          <th>DueDate [dead-line]</th>
+        
+        </tr>
+    </table>
+    <div class= "space" style="height: 120px;"></div>
+    <h4>Disclaimer
+        GUC has the rights to modify the student financial data according to the GUC regulations.
+        This as an unofficial report without any responsibility on GUC.
+        If you have any inquiries, please contact the Student Financial Affairs (SFA).</h4>
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+      
+      </script>
+<body>
+</body>
+</html>

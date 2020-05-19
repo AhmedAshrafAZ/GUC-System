@@ -1,0 +1,192 @@
+body{
+   background-image: url(../img/studying1.jpg);
+
+}
+
+.logo{
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    height: 2px;
+    padding: 0%;
+    margin-right: 0px;
+   
+}
+h5{
+ 
+    text-align: right;
+padding-left: 1150px;
+font-size: 1.5rem;
+
+
+}
+.sign-out{
+    background: border-box;
+    background-color: #27566B;
+    height: 40px;
+    width: 100px;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+border-color: #27566B ;
+cursor: pointer;
+border-style: none;
+transition: all 1s;
+transform: scale(1.1); 
+margin-right: 12px;     
+
+}
+.btn{
+    float: right;
+    padding-right: 5px;
+    
+   
+}
+.sign-out:hover{
+    
+    background-color: #EB1600;
+    transition: all 0.2s;
+    transform: scale(1.1);
+    border-color: #EB1600 ;
+    outline: none;
+}
+img{
+   
+    margin: 0px;
+    padding: 0px;
+    height: 150px;
+    width: 150px;
+    
+}
+
+.space1{
+    height: 250px;
+    
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    display: grid;
+gap: 20px;
+
+  float: right;
+  font-size: 30px;
+padding-right: 170px;
+transition: all 1s;
+transform: scale(1.1);
+color: white;
+cursor: pointer;
+
+}
+
+
+.a{
+    background: border-box;
+    background-color: #27566B;
+   text-align: center;
+   border-radius: 50px;
+   width: 250px;
+   color: white;
+  
+}
+.a:hover{
+    background-color: #EB1600;
+    transition: all 0.2s;
+transform: scale(1.1);
+}
+
+.b{
+    background: border-box;
+    background-color: #27566B;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+}
+.b:hover{
+    background-color: #EB1600;
+    transition: all 0.2s;
+transform: scale(1.1);
+}
+.c{
+    background: border-box;
+    background-color: #27566B;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+}
+.c:hover{
+    background-color: #EB1600;
+    transition: all 0.2s;
+transform: scale(1.1); 
+
+}
+.d{
+    background: border-box;
+    background-color: #27566B;
+    border-radius: 50px;
+text-align: center;
+color: white;
+}
+.d:hover{
+    background-color: #EB1600;
+    transition: all 0.2s;
+transform: scale(1.1);
+
+}
+.e{
+    background: border-box;
+    background-color: #27566B;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+}
+.e:hover{
+    background-color: #EB1600;
+    transition: all 0.2s;
+transform: scale(1.1);
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    margin-top: -170px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #27566B;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding-right:7px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    color: white;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }

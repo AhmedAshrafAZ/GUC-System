@@ -1,0 +1,272 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0 auto ;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px; 
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+    transition: all 0.2s;
+    background-color: #EB1600; 
+  transform: scale(1.1);
+  margin: 0;
+  }
+a.closebtn:hover{
+  background-color: #111; 
+
+}
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #27566B;
+  color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    margin-left: -51px;
+    margin-top: 80px;
+  }
+  
+  .openbtn:hover {
+    background-color: #EB1600;   
+    transition: all 0.3s;
+    
+    
+  }
+  .white{
+      color: white;
+      padding-left:20px ;
+  }
+  
+  #main {
+ 
+    transition: margin-left .5s;
+    padding: 16px;
+   
+  }
+ /* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .zone {
+    color:#FFF;
+    font-size:2em;
+    
+    transition: all 0.3s linear;
+}
+
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0 ;
+    font-size: 0.7em;
+   
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+    
+.green{
+    height: 370px;
+}
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
+ 
+.container {
+    /*show heigh: auto*/
+    height: 50vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 30px; 
+    grid-template-rows: repeat(auto-fill, minmax(150px, 330px));
+    margin: 40px;
+}
+.upper{
+  height: 50px;
+}
+
+.box {
+    background-color: #444;
+    text-align: center;
+    background-color: #27566B;
+    font-size: 2rem;
+    cursor: pointer;
+    box-shadow: 2px 3px;
+}
+
+ img {
+    width: 100%;
+}
+.box:hover{
+  background-color: #EB1600;
+  transition: all 0.5s;
+    transform: scale(1.1);
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    text-align: center;
+    height: 50px;
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.sign-out{
+    background: border-box;
+    background-color: #27566B;
+    height: 40px;
+    width: 150px;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+border-color: #27566B ;
+cursor: pointer;
+border-style: none;
+transition: all 1s;
+transform: scale(1.1);      
+
+}
+.btn{
+    position: absolute;
+    right: 10px;
+    top: 5px;   
+    margin-top: 245px;   
+}
+.sign-out:hover{
+    
+    background-color: #EB1600;
+    transition: all 0.2s;
+    transform: scale(1.1);
+    border-color: #EB1600 ;
+    outline: none;
+}
+.center{
+   display: flex;
+   justify-content: center;
+margin: auto;
+padding-left: 500px; 
+}
+@media only screen and (max-width: 600px) {
+   .center{
+    display: flex;
+    justify-content: center;
+ margin: auto;
+ padding-left: 60px;
+   }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .center{
+     display: flex;
+     justify-content: center;
+  margin: auto;
+  padding-left: 220px;
+    }
+   }
+ 
+   @media screen and (max-width: 768px) {
+    .center{
+        display: flex;
+        justify-content: center;
+     margin: auto;
+     padding-left: 90px;
+    }
+}
+    
+.r{
+  background-color: #f1f1c1;
+  box-shadow:rgba(0,0,0,0.8) 20px 10px 20px, inset rgba(0,0,0,0.15) 20px 20px 20px;
+  height: 200px;
+}

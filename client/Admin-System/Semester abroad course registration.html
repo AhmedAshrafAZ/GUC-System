@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berlin Semester</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../Admin-System/Berlin.css">  
+  <link rel="icon" href="../img/GUC-icon.png"  >
+</head>
+<body>
+  <div >
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="../Admin-System/Document info.html">Document Info</a>
+    <a href="../Admin-System/paynment info.html">payment Info</a>
+    <a href="../Admin-System/Berlin.html">Semester Registeration</a>
+    <a href="../Admin-System/Berlin semester verification.html">Semester Payment</a>
+    <a href="../Admin-System/Semester abroad course registration.html"> Course registration</a>
+    <a href="../Admin-System/Course verification.html">Course Payment</a>
+    <a href="../Admin-System/Staff.html">Staff</a>
+    <a href="../Admin-System/semester abroad calender.html">semester calender</a>
+
+  </div>
+
+  <nav class="zone green">
+    <ul class="main-nav">
+      <div id="main" >
+        <div class="center">
+        <img src="../img/guc-com.png" alt="" >
+      </div>
+        
+        <button class="openbtn" style="outline: none;" onclick="openNav()">☰ Open Sidebar</button>
+        <a href="../Admin-System/Admin System.html" > <div class="btn"> <button type="button" class="sign-out">Home</button></div></a>
+        
+      </div>
+    
+
+    </ul>
+  </nav>
+  <!-- <div class="container zone red">Cover!!!!</div> -->
+ 
+    <!-- lskFHLEW -->
+    
+</div>
+<div class="space3"></div>
+
+<div class="s">
+    <label for="cars" style="margin-left: -70px;">Choose course:</label>
+       
+       <select id="course" style="margin-top: 12px;margin-left: -14px;">
+         <option value="none">no courses yet</option>
+         
+       </select><br>
+      
+<h1 style=" text-align: center; margin-left: -10px;"> Course Reservation📝</h1>
+<!-- <label for="cars" style="margin-left: -70px;">Choose major:</label>
+       
+<select id="course" style="margin-top: 12px;margin-left: -14px;">
+  <option value="none">no major yet</option>
+  
+</select> -->
+
+    <div id="form" class="f">
+ <form method="GET" action="../Admin-System/ok berlin course.html">
+
+    <fieldset>
+        <label for="Student">Student ID:</label>
+        <input type="text" placeholder="Student ID:"  required/>
+
+        <label for="Matric_no">Student Name:</label>
+        <input name="Matric_no" type="text" placeholder="Student Name:" id="Matric_no" required />
+        <label for="Matric_no">Student Major:</label>
+        <input name="Matric_no" type="text" placeholder="Student Major:" id="Matric_no" required />
+        <label for="Email">Student Birthday:</label>
+        <input name="date" type="date" placeholder="Student Birthday:" required  />
+        <label for="Username">Student Full Address:</label>
+        <input name="Username" placeholder="Address:" type="text" required id="Username" />
+        <label for="Student">Student Phone Number:</label>
+        <input type="number" placeholder="Student Phone number:"  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" name="" onkeydown="return event.keyCode !== 69"  maxlength="10" required/>
+        <label for="Student">Student Home Number:</label>
+        <input type="number" placeholder="Student Home number:"  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" name="" onkeydown="return event.keyCode !== 69"  maxlength="10" required/>
+        <label for="Username">Student Email:</label>
+        <input name="Username" placeholder="Email:" type="email" required id="Username" />
+        <label for="Username">Passport Number:</label>
+        <input name="Username" placeholder="Passport Number:" required type="text" id="Username" />
+    
+            <div class="btn2" >
+        <button class="submit1"  type="submit" value="register">submit </button>
+        <button class="submit2" type="reset" value="register">reset</button>
+        </div>
+    </fieldset>
+     
+ </form>
+</div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </div>
+
+  <footer class="zone yellow"></footer>
+ 
+</div>
+  <!-- start of script file -->
+  <!-- button sidebar -->
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+
+</script>
+</body>
+</html>

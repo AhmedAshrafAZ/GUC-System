@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add course registration </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="../Admin-System/makeup registraion.css"> 
+    <link rel="icon" href="../img/GUC-icon.png" > 
+</head>
+<body>
+    <div class="top" >
+        <div class="center"><img src="../img/guc-com.png" alt="" ></div>
+       <a href="../Admin-System/Admin System.html"> <div class="btn"> <button type="button" class="home">Home</button></div></a>
+       <div class="btn-group" >
+        <button id="bootstrap-overrides" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Choose major        </button>
+        <div class="dropdown-menu dropdown-menu-right" id="bootstrap-overrides2">
+            <button class="dropdown-item"  type="button">no majors in the data base yet but enter your mail and ID and submit</button>
+           
+        </div>
+      </div>
+      <div class="space3"></div>
+      <div class="s" >
+      
+        <div class="space4"></div>
+        <div class="sc" style="display: flex;justify-content: center;">
+      <h1 > Add course📝</h1><br>
+    </div>
+       <div class="space"></div>
+       <div class="c" style="display: flex; justify-content: center;">
+       <label for="cars">Choose course:</label>
+       
+       <select id="course" >
+         <option value="none">no courses yet</option>
+         
+       </select>
+      </div>
+       <div class="space2"></div>
+       <div class="form" style="display: flex;justify-content: center;"  >
+       <form method="GET" action="../Admin-System/Add course.html">
+         <label for="">Email:</label><br>
+         <input type="email" placeholder="Email"  name="Email" required><br>
+         <label for="">ID:</label><br>
+         <input type="ID" placeholder="ID" autocomplete="off" name="ID" class="ID"><br>
+       <div class="btn2">
+  <button class="submit1"  style="border-style: none;outline: none;"  type="submit" value="register">submit </button>
+  <a href="../Admin-System/Add-drop course.html"> <button class="submit2" type="button" value="register" style="border-style: none;outline: none;">back</button><br></a>
+
+  </div>
+       </form>
+      </div>
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content" style=" background-color: #27566B;">
+          <span class="close" style="color: white;">&times;</span>
+          <p style="color: white; text-align: center; font-size: 30px;">Registration has been completed. If you want to pay now kindly press the "GO" button or press the "home" if you want to pay later!.</p><br>
+          <p style="color: white; text-align: center;">Click outside the box or the X button to exit</p>
+        </div>
+      
+      </div>
+    
+      </div>
+      <script>// Get the modal
+        var modal = document.getElementById("myModal");
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on the button, open the modal
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }</script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
