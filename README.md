@@ -2,7 +2,6 @@
 
 ## Overview
 
-> **⚠ This project is still under development.**\
 > **⚠ This project is only front-end, there is no back-end or database.**\
 
 An overview will be provided later \
@@ -90,7 +89,7 @@ You can try a live version [HERE](https://guc-system.herokuapp.com/)
    9. [x] Contact Us
    10. [x] Sidebar
 
-2. [x] E-mail
-3. [x] Alumni Service
-4. [x] Libraries
-5. [x] Content
+2. [ ] E-mail
+3. [ ] Alumni Service
+4. [ ] Libraries
+5. [ ] Content
