@@ -96,7 +96,18 @@ a.closebtn:hover{
     
     transition: all 0.3s linear;
 }
+  @media only screen and (max-width: 800px) {
+        img{
+       width: 100px;
+       height: 100px;
+       margin-bottom: 50px;
+       margin-left: -60px;
 
+        }
+  
+       }
+       
+     
 /***********************************************************************
  *  Nav Bar
  **********************************************************************/
@@ -264,7 +275,12 @@ padding-left: 500px;
      padding-left: 90px;
     }
 }
-    
+@media screen and (max-width: 400px) {
+  input{
+    width: 100px;
+   
+  }
+}
 .space{
     height: 20px;
 }
@@ -355,7 +371,8 @@ padding-left: 500px;
 .s{
    background-color: #f1f1c1;
    box-shadow:rgba(0,0,0,0.8) 20px 10px 20px, inset rgba(0,0,0,0.15) 20px 20px 20px;
-   height: 480px;
+   height: 490px;
+   
  }
  .close{
    cursor: pointer;

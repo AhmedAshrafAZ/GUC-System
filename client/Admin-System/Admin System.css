@@ -96,7 +96,17 @@ a.closebtn:hover{
     
     transition: all 0.3s linear;
 }
-
+  @media only screen and (max-width: 800px) {
+        .img{
+       width: 200px;
+       height: 100px;
+      padding-left: -50px;
+     
+   margin-left: 50px;
+        }
+       }
+       
+      
 /***********************************************************************
  *  Nav Bar
  **********************************************************************/
@@ -263,6 +273,12 @@ padding-left: 500px;
  padding-left: 60px;
    }
   }
+  @media only screen and (max-width: 600px) {
+    #search{
+   width: 350px;
+height: 50px;
+    }
+   }
 
   @media only screen and (max-width: 1000px) {
     .center{

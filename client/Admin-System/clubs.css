@@ -20,6 +20,17 @@ body {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
+  @media only screen and (max-width: 200px) {
+    .img{
+   width: 200px;
+   height: 100px;
+  padding-left: -50px;
+ 
+margin-left: 50px;
+
+    }
+}
+   
   .zone {
     color:#FFF;
     font-size:2em;
@@ -73,6 +84,13 @@ a {
     align-items: center;
     justify-content: center;
 }
+@media only screen and (max-width: 500px) {
+    img{
+
+    }
+   }
+   
+   
 
 /***********************************************************************
  *  Grid Panel

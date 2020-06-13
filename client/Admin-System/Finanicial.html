@@ -3,49 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financial</title>
-    <link rel="stylesheet" type="text/css" href="../Admin-System/Finanicial.css">  
-    <link rel="icon" href="../img/GUC-icon.png"  >
+    <title>Financials</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../Admin-System/Schedule.css"> 
+    <link rel="icon" href="../img/GUC-icon.png" > 
 </head>
-<div >
-    <div id="mySidebar" class="sidebar">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-      <a href="../Admin-System/Check financial balance.html">Check financial balance</a>
-      <a href="../Admin-System/Pay normal semester fees1.html">Pay normal semester fees</a>
-      <a href="../Admin-System/Pay for summer course1.html">Pay for summer course</a>
-      <a href="../Admin-System/Pay makeup exam online1.html">Pay makeup exam online</a>
-      <a href="../Admin-System/Pay for elective courses1.html">Pay for elective courses</a>
-      <a href="../Admin-System/Pay for remarking session chosen1.html">Pay for remarking session</a>
-      <a href="../Admin-System/Pay for summer activity1.html">Pay for summer activity</a>
-      <a href="../Admin-System/Pay for the GUC-provided trips1.html">Pay for the GUC-provided trips</a>
-      <a href="../Admin-System/Payment of the military service fees1.html">Payment of the military service fees </a>
-    </div>
-  
-    <nav class="zone green">
-      <ul class="main-nav">
-        <div id="main" >
-          <div class="center">
-          <img src="../img/guc-com.png" alt="" >
-        </div>
-          
-          <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>
-          <a href="../Admin-System/Admin System.html" > <div class="btn"> <button type="button" class="sign-out">Home</button></div></a>
-          
-        </div>
-      </ul>
-    </nav>
-    <script>
-        function openNav() {
-          document.getElementById("mySidebar").style.width = "250px";
-          document.getElementById("main").style.marginLeft = "250px";
-        }
-        
-        function closeNav() {
-          document.getElementById("mySidebar").style.width = "0";
-          document.getElementById("main").style.marginLeft= "0";
-        }
-      
-      </script>
+
 <body>
+    <div class="top" >
+        <div class="center"><img src="../img/guc-com.png" alt="" ></div>
+       <a href="../Admin-System/Admin System.html"> <div class="btn"> <button type="button" class="home">Home</button></div></a>
+      
+    </div>
+    <div class="space" style="height: 80px;"></div>
+    <div class="s" style="height: 300px;"><br>
+        <div class="btn-group" >
+            <button id="bootstrap-overrides" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                What type of Financials are you looking for?   </button>
+            <div class="dropdown-menu dropdown-menu-right" id="bootstrap-overrides2">
+              <a style="text-decoration: none;" href="../Admin-System/Check financial balance.html"> <button class="dropdown-item"  type="button">Check financial balance</button></a>
+              <a style="text-decoration: none;"  href="../Admin-System/Pay normal semester fees1.html"> <button class="dropdown-item"  type="button">Pay normal semester fees</button></a>
+              <a style="text-decoration: none;"  href="../Admin-System/Pay for summer course1.html"> <button class="dropdown-item"  type="button">Pay for summer course</button></a>
+              <a style="text-decoration: none;"  href="../Admin-System/Pay makeup exam online1.html"> <button class="dropdown-item"  type="button">Pay makeup exam online</button></a>
+              <a style="text-decoration: none;"  href="../Admin-System/Pay for elective courses1.html"> <button class="dropdown-item"  type="button">Pay for elective courses</button></a>
+              <a style="text-decoration: none;"  href="../Admin-System/Pay for remarking session chosen1.html"> <button class="dropdown-item"  type="button">Pay for remarking session</button></a>
+              <a style="text-decoration: none;"  href="../Admin-System/Pay for summer activity1.html"> <button class="dropdown-item"  type="button">Pay for summer activity</button></a>
+              <a style="text-decoration: none;"  href="../Admin-System/Pay for the GUC-provided trips1.html"> <button class="dropdown-item"  type="button">Pay for the GUC-provided trips</button></a>
+              <a style="text-decoration: none;"  href="../Admin-System/Payment of the military service fees1.html"> <button class="dropdown-item"  type="button">Payment of the military service fees</button></a>
+
+            </div>
+          </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
+
+  

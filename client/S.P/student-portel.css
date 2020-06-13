@@ -2,6 +2,10 @@ body{
    background-image: url(../img/studying1.jpg);
 
 }
+html{
+
+
+}
 
 .logo{
     display: flex;
@@ -71,7 +75,6 @@ img{
 .container{
     display: grid;
 gap: 20px;
-
   float: right;
   font-size: 30px;
 padding-right: 170px;

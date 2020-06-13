@@ -1,6 +1,7 @@
 .center{
     display: flex;
     justify-content: center;
+    align-items: center;
  margin: auto;
  margin-left: -80px; 
  }
@@ -19,10 +20,16 @@
       justify-content: center;
    margin: auto;
    padding-left: 220px;
+   
      }
     }
    
-     
+    @media only screen and (max-width: 1000px) {
+        img{
+       width: 150px;
+       height: 100px;
+        }
+       }
   
     @media screen and (max-width: 768px) {
      .center{
