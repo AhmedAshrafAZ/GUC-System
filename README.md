@@ -38,9 +38,21 @@ You can try a live version [HERE](https://guc-system.herokuapp.com/)
    node index.js
    ```
 
-5. Visit the URL & have fun 😃❤️
+5. Navigate to the URL & have fun 😃❤️
 
 ### With only basic front-end
+
+1. Download the project
+
+   ```
+   git clone https://github.com/AhmedAshrafAZ/GUC-System.git
+   ```
+
+2. Navigate to the project folder (GUC-System)
+
+3. Navigate to "start-up" folder
+
+4. Open "index.html" & have fun 😃❤️
 
 ## Features
 
