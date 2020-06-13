@@ -47,7 +47,7 @@ You can try a live version [HERE](https://guc-system.herokuapp.com/)
    git clone https://github.com/AhmedAshrafAZ/GUC-System.git
    ```
 
-2. Navigate to the project folder (GUC-System)
+2. Navigate to the project folder (GUC-System/client)
 
 3. Navigate to "start-up" folder
 
